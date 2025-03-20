@@ -853,14 +853,6 @@ header .navbar {
   
   .pricing-card {
     width: 100%; /* Asegura que cada tarjeta ocupe el 100% del ancho disponible */
-  }
-}
-
-
-
-
-  .pricing-card {
-    width: 100%; /* Las tarjetas ocupan todo el ancho disponible */
     min-height: auto; /* Altura flexible */
   }
 
@@ -888,6 +880,9 @@ header .navbar {
     width: 350px; /* Ancho consistente de las tarjetas en pantallas grandes */
   }
 }
+
+
+
 
 
 
