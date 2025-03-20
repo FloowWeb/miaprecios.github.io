@@ -847,7 +847,7 @@ header .navbar {
 @media (max-width: 600px) {
   .pricing-cards {
     gap: 20px; /* Menos espacio entre tarjetas */
-    flex-direction: column-reverse; /* Las tarjetas se apilan verticalmente */
+    flex-direction: column; /* Las tarjetas se apilan verticalmente */
   }
 
   .pricing-card {
