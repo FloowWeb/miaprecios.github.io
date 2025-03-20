@@ -846,9 +846,18 @@ header .navbar {
 /* En pantallas pequeñas (móviles) */
 @media (max-width: 600px) {
   .pricing-cards {
-    gap: 20px; /* Menos espacio entre tarjetas */
+    display: flex; /* Aseguramos que sea un contenedor flexible */
     flex-direction: column; /* Las tarjetas se apilan verticalmente */
+    gap: 20px; /* Menos espacio entre tarjetas */
   }
+  
+  .pricing-card {
+    width: 100%; /* Asegura que cada tarjeta ocupe el 100% del ancho disponible */
+  }
+}
+
+
+
 
   .pricing-card {
     width: 100%; /* Las tarjetas ocupan todo el ancho disponible */
